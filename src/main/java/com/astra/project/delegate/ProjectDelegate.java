@@ -29,7 +29,6 @@ public class ProjectDelegate {
 
 	private final GitUtils gitUtils;
 
-	private final Delete delete;
 	public ResponseEntity<ByteArrayResource> createNewProject(CreateProjectDTO oCreateProjectDTO)
 			throws ClientProtocolException, IOException, GitAPIException, URISyntaxException {
 

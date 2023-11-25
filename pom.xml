@@ -69,6 +69,19 @@
 			<version>4.5.13</version> <!-- Use a versão mais recente do Apache
 			HttpClient -->
 		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.jgit</groupId>
+			<artifactId>org.eclipse.jgit</artifactId>
+			<version>6.7.0.202309050840-r</version>
+		</dependency>
+
+		<!-- Apache Commons IO -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version> <!-- Verifique a versão mais recente -->
+		</dependency>
 	</dependencies>
 
 	<build>
